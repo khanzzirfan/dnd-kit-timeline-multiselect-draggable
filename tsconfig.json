@@ -1,0 +1,15 @@
+{
+  "exclude": ["node_modules"],
+  "compilerOptions": {
+    "rootDir": "src",
+    "outDir": "dist",
+    "baseUrl": ".",
+    "jsx": "react",
+    "esModuleInterop": true,
+    "module": "commonjs",
+    "paths": {
+      "@/*": ["./src/*"]
+    }
+  },
+  "include": ["src"]
+}
